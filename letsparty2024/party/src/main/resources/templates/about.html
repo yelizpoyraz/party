@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type ="text/css" media ="all" th:href="@{/css/style.css}"/>
+    <title>about</title>
+</head>
+<body>
+
+<h1> About me </h1>
+<p>Hey, this is Yeliz. </p>
+
+<ul>
+    <li   th:text = "${name}"> name </li>
+    <li   th:text = "${address}"> address </li>
+    <li   th:text = "${city}"> city </li>
+</ul>
+
+</body>
+</html>
